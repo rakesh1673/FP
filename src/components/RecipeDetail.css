@@ -1,0 +1,71 @@
+.recipe-form__full-controls {
+    display: flex;
+}
+
+.recipe-form__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    max-width: 80%;
+}
+
+.recipe-form__control {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recipe-form__control label{
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    text-align: left;
+}
+
+.recipe-form__control input {
+    font: inherit;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-bottom: 1px solid #E6E6E6;
+    color: #565A64;
+    width: 13rem;
+}
+
+.recipe-form__control select {
+    font: inherit;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.5rem 3rem;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-bottom: 1px solid #E6E6E6;
+    color: #565A64;
+    width: 13rem;
+    /* text-align: left; */
+}
+
+.recipe-form__control option {
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-radius: 0px;
+}
+
+
+.recipe-form__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.recipe-form__control-image {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

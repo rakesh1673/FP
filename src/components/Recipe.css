@@ -1,0 +1,10 @@
+.recipe {
+    margin: 2rem;
+    border: 1px solid #E6E6E6;
+    padding: 1rem;
+    max-width: 95%;
+}
+
+.recipe-ingredient {
+    margin-top: 2rem;
+}
