@@ -1,10 +1,15 @@
+.features {
+    margin: 1.5rem 2rem 0.5rem;
+}
+
+.new-recipe-btn {
+    background-color: #EAA82B;
+}
+
 .recipe {
     margin: 2rem;
     border: 1px solid #E6E6E6;
     padding: 1rem;
     max-width: 95%;
-}
-
-.recipe-ingredient {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
