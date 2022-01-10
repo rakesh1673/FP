@@ -6,6 +6,7 @@ import "./Recipe.css";
 import Card from "../UI/Card";
 import Button from "../UI/Button";
 import RecipeIngredientList from "./RecipeIngredient/RecipeIngredientList";
+import RecipeProgressTime from "./RecipeProgressTime/RecipeProgressTime";
 
 const DUMMY_INGREDIENTS = [
   {
@@ -56,7 +57,10 @@ function Recipe() {
       </div>
       <Card className="recipe">
         <RecipeForm onSaveIngredientData={saveIngredientDataHandler} />
-        <RecipeIngredientList items={ingredients} />
+        <div className="ingredient-time">
+          <RecipeIngredientList items={ingredients} />
+          <RecipeProgressTime />
+        </div>
       </Card>
     </div>
   );

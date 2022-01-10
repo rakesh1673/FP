@@ -13,3 +13,9 @@
     max-width: 95%;
     margin-top: 1rem;
 }
+
+.ingredient-time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
