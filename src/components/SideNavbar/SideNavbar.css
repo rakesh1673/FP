@@ -1,0 +1,28 @@
+.side-navbar {
+    width: 12%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-color: #0D131E;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    height: 10%;
+}
+
+.side-navbar-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    cursor: pointer;
+}

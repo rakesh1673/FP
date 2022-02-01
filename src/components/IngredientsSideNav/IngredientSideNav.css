@@ -1,0 +1,27 @@
+.ingredient-sidenav {
+    width: 280px;
+    background-color: #333945;
+    height: 100%;
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 15px;
+}
+
+.ingredient-sidenav-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredient-sidenav-input input{
+    border-radius: 34px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid #565A64;
+    color: #fff;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.frequently {
+    margin-top: 15px;
+}

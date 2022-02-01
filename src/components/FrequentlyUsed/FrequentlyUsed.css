@@ -1,0 +1,13 @@
+.frequently-used-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 0.7rem;
+}
+
+.item-selected {
+    background: #2A2D34 0% 0% no-repeat padding-box;
+border: 1px solid #EAA82B;
+border-radius: 6px;
+}

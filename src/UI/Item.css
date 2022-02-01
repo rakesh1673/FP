@@ -1,0 +1,9 @@
+.item {
+    background: #565A64 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    text-align: center;
+    width: 40%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+}

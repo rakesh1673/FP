@@ -49,7 +49,7 @@ function Recipe() {
   };
 
   return (
-    <div>
+    <div className="total-recipe-section">
       <div className="features">
         <Button text="New Recipe" className="new-recipe-btn" />
         <Button text="Recent Recipe" />

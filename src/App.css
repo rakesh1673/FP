@@ -1,3 +1,12 @@
-.recipe {
-    width: 60%;
+/* .recipe {
+    width: 70%;
+} */
+
+/* .App {
+    display: flex;
+} */
+
+.content {
+    margin-left: 12%;
+    display: flex;
 }
